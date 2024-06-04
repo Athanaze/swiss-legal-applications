@@ -124,7 +124,7 @@ def chroma_db_from_xml_file(xml_file, chroma_dir_name, metadata, add_to_existing
 ```
 
 Somehow hard to find via google, so here it is:
-[Document class documentation(https://api.python.langchain.com/en/latest/documents/langchain_core.documents.base.Document.html#langchain_core.documents.base.Document)
+[Document class documentation](https://api.python.langchain.com/en/latest/documents/langchain_core.documents.base.Document.html#langchain_core.documents.base.Document)
 
 
 ---
