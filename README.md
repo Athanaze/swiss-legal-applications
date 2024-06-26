@@ -2,6 +2,8 @@
 
 Useful resources regarding legal applications.
 
+https://github.com/HazyResearch/legalbench/
+
 ## laws.json
 
 Contains all the federal laws. fileUrl.value contains the link for the xml version of each law.
