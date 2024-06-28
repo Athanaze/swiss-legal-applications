@@ -156,6 +156,6 @@ Somehow hard to find via google, so here it is:
 
 ### Created and maintained by [Liechti Consulting](https://liechticonsulting.com) &nbsp; :switzerland:
 
-Need AI-powered solutions? Check out [gptprepay.com](https://gptprepay.com), a Liechti Consulting product for custom GPT services! &nbsp; :rocket:
+Need AI-powered solutions? sacha@liechticonsulting.com :rocket:
 
 ---
