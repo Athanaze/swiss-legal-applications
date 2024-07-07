@@ -1,3 +1,26 @@
+# Multilangual embedding model
+
+https://deepinfra.com/BAAI/bge-m3?version=babcf60cae0a1f438d7ade582983d4ba462303c2
+
+"
+BAAI/bge-m3
+BGE-M3 is a versatile text embedding model that supports multi-functionality, multi-linguality, and multi-granularity, allowing it to perform dense retrieval, multi-vector retrieval, and sparse retrieval in over 100 languages and with input sizes up to 8192 tokens. The model can be used in a retrieval pipeline with hybrid retrieval and re-ranking to achieve higher accuracy and stronger generalization capabilities. BGE-M3 has shown state-of-the-art performance on several benchmarks, including MKQA, MLDR, and NarritiveQA, and can be used as a drop-in replacement for other embedding models like DPR and BGE-v1.5"
+
+Run locally:
+
+```python
+
+
+from FlagEmbedding import BGEM3FlagModel
+
+model = BGEM3FlagModel('BAAI/bge-m3')
+
+embeddings=[model.encode(content)['dense_vecs'].tolist()]
+
+
+
+```
+
 # swiss-legal-applications
 
 Useful resources regarding legal applications.
