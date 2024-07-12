@@ -1,3 +1,7 @@
+# Notes
+
+For vision tasks (e.g. using claude 3 haiku) it is **crucial** to orient the photos of documents correctly, otherwise the model starts to make stuff up, even at temp=0
+
 # Multilangual embedding model
 
 https://deepinfra.com/BAAI/bge-m3?version=babcf60cae0a1f438d7ade582983d4ba462303c2
