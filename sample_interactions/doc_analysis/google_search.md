@@ -39,7 +39,7 @@ Réponds sous forme
 ]
 
 Voici les recherches Google suggérées basées sur le contenu du document :
-
+```json
 [
 {
 "google_query": "ISOS Inventaire fédéral des sites construits d'importance nationale à protéger en Suisse",
@@ -97,3 +97,5 @@ Voici les recherches Google suggérées basées sur le contenu du document :
 "first_link": "https://www.unifr.ch/ius/baurecht/fr/assets/public/JDC%202023/2023%20J.%20Dubey.pdf"
 }
 ]
+
+```
