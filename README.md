@@ -1,3 +1,11 @@
+# Particularités suisses
+
+Particularités suisses
+En Suisse, certaines assurances sont obligatoires, comme l'assurance maladie de base (LAMal) et l'assurance responsabilité civile pour les véhicules à moteur. D'autres sont fortement recommandées, comme l'assurance ménage et responsabilité civile privée.
+Il est également important de noter que le système d'assurance sociale suisse (AVS, AI, APG) offre une couverture de base pour la retraite, l'invalidité et la perte de gain, que les assurances privées peuvent compléter.
+Enfin, la Suisse a un système de surveillance des assurances très développé, avec l'Autorité fédérale de surveillance des marchés financiers (FINMA) qui veille à la protection des assurés et à la stabilité du système financier.
+
+
 # Problèmes juridiques que l'on peut rencontrer en Suisse :
 
 ## 1. Droit de la famille
