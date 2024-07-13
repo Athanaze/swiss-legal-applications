@@ -1,3 +1,55 @@
+# Problèmes juridiques que l'on peut rencontrer en Suisse :
+
+## 1. Droit de la famille
+
+- Divorce et séparation
+- Garde des enfants et pension alimentaire
+- Adoption et filiation
+
+## 2. Droit du travail
+
+- Licenciement abusif
+- Harcèlement au travail
+- Conditions de travail et salaires
+
+## 3. Droit pénal
+
+- Vols et cambriolages
+- Infractions liées aux drogues
+- Violences domestiques
+
+## 4. Droit des contrats
+
+- Litiges commerciaux
+- Non-respect des contrats de vente
+- Problèmes de location immobilière
+
+## 5. Droit des étrangers
+
+- Permis de séjour et de travail
+- Demandes d'asile
+- Expulsions
+
+## 6. Droit de la consommation
+
+- Litiges liés à la consommation de biens et services
+- Publicité mensongère
+- Garantie des produits
+
+## 7. Droit administratif
+
+- Contestations de décisions administratives
+- Problèmes liés à l'urbanisme et à la construction
+- Questions fiscales
+
+## 8. Droit de la propriété intellectuelle
+
+- Violations de droits d'auteur
+- Litiges de brevets et marques
+
+---
+
+
 # Notes
 
 For vision tasks (e.g. using claude 3 haiku) it is **crucial** to orient the photos of documents correctly, otherwise the model starts to make stuff up, even at temp=0
