@@ -1,3 +1,5 @@
+https://github.com/OfficeDev/Office-Add-in-samples
+
 # Particularités suisses
 
 En Suisse, certaines assurances sont obligatoires, comme l'assurance maladie de base (LAMal) et l'assurance responsabilité civile pour les véhicules à moteur. D'autres sont fortement recommandées, comme l'assurance ménage et responsabilité civile privée.
