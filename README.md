@@ -1,4 +1,4 @@
-# Démarches juridiques
+# Démarches juridiques en suisse
 ### Droit pénal
 
 #### État civil
@@ -12,7 +12,7 @@
 #### Droit des personnes
 - Changement de nom ou de prénom : [Office de l'état civil]
 - Déclaration d'absence : [Tribunal de première instance]
-- Protection des majeurs (curatelle) : [Tribunal de protection de l'adulte et de l'enfant]
+- Protection des majeurs (curatelle) : [Tribunal de protection de l'adulte et de l'enfant, dans certains cantons, cela peut être l'Autorité de protection de l'adulte et de l'enfant (APAE)]
 
 #### Droit de la famille
 - Adoption : [Tribunal de protection de l'adulte et de l'enfant]
@@ -20,9 +20,9 @@
 - Tutelle et curatelle : [Tribunal de protection de l'adulte et de l'enfant]
 
 #### Successions
-- Testament : [Notaire]
+- Testament : [Notaire, le testament olographe peut être rédigé sans notaire]
 - Pacte successoral : [Notaire]
-- Acceptation ou renonciation à une succession : [Tribunal de première instance]
+- Acceptation ou renonciation à une succession : [Tribunal de première instance, dans certains cantons, cela peut se faire auprès de l'autorité compétente en matière de successions]
 
 #### Enquête et poursuite
 - Dépôt de plainte pénale : [Police ou Ministère public]
@@ -32,7 +32,7 @@
 #### Procédures pénales
 - Comparution devant le tribunal de police : [Tribunal de police]
 - Comparution devant le tribunal pénal : [Tribunal pénal]
-- Recours contre une décision de classement : [Ministère public]
+- Recours contre une décision de classement : [Ministère public,  le recours se fait auprès de l'autorité de recours compétente, qui peut varier selon les cantons]
 
 #### Défense et assistance judiciaire
 - Demande d'assistance judiciaire : [Tribunal de première instance]
@@ -40,7 +40,7 @@
 - Contestation d'une décision de refus d'assistance judiciaire : [Tribunal de première instance]
 
 #### Exécution des peines
-- Demande de libération conditionnelle : [Service pénitentiaire ou Tribunal d'application des peines]
+- Demande de libération conditionnelle : [Service pénitentiaire ou Tribunal d'application des peines, dans certains cantons, c'est le juge d'application des peines qui est compétent.]
 - Demande de sursis : [Tribunal d'application des peines]
 - Demande de révision de peine : [Tribunal de première instance]
 
@@ -60,7 +60,7 @@
 - Demande de réparation pour erreur judiciaire : [Tribunal de première instance]
 
 #### Procédures de recours et appels
-- Appel contre un jugement pénal : [Cour d'appel]
+- Appel contre un jugement pénal : [Cour d'appel, cela peut être la Cour d'appel ou le Tribunal cantonal selon les cantons]
 - Recours en cassation : [Tribunal fédéral]
 
 #### Mesures pénales alternatives
@@ -80,7 +80,7 @@
 #### Permis et autorisations
 - Demande de permis de séjour : [Service cantonal des migrations]
 - Demande de permis de travail : [Service cantonal des migrations]
-- Demande de permis de construire : [Service cantonal de l'aménagement du territoire]
+- Demande de permis de construire : [Service cantonal de l'aménagement du territoire, Dans certains cas, cela peut être la commune plutôt que le canton]
 - Demande d'autorisation pour manifestation publique : [Municipalité ou préfecture]
 
 #### Contestations administratives
@@ -90,7 +90,7 @@
 
 #### Naturalisation et citoyenneté
 - Demande de naturalisation ordinaire : [Service cantonal des naturalisations]
-- Demande de naturalisation facilitée : [Service cantonal des naturalisations]
+- Demande de naturalisation facilitée : [Service cantonal des naturalisations, c'est le Secrétariat d'État aux migrations (SEM) qui est compétent au niveau fédéral.]
 - Recours contre une décision de refus de naturalisation : [Tribunal administratif cantonal]
 
 #### Droits sociaux
@@ -100,7 +100,7 @@
 
 #### Santé et sécurité publique
 - Demande de subvention pour l'assurance maladie : [Service cantonal de l'assurance maladie]
-- Contestation d'une décision sanitaire : [Tribunal administratif cantonal]
+- Contestation d'une décision sanitaire : [Tribunal administratif cantonal, les recours peuvent aussi être adressés au Tribunal fédéral dans certains cas]
 - Plainte pour insalubrité ou nuisances : [Service cantonal de l'environnement]
 
 #### Droit de l'environnement et de l'urbanisme
@@ -117,6 +117,8 @@
 - Demande de permis de conduire : [Service cantonal des automobiles et de la navigation]
 - Contestation d'une amende de circulation : [Tribunal administratif cantonal]
 - Recours contre une décision de retrait de permis : [Tribunal administratif cantonal]
+
+
 
 #### Litiges administratifs spécifiques
 - Droit des assurances sociales : [Tribunal administratif cantonal]
@@ -137,7 +139,7 @@
 
 #### Gestion des situations d'urgence
 - Mesures sanitaires : [Tribunal administratif cantonal]
-- Planification de la protection civile : [Tribunal administratif cantonal]
+- Planification de la protection civile : [Tribunal administratif cantonal, Cette compétence relève généralement des autorités cantonales ou communales plutôt que du Tribunal administratif cantonal.]
 
 https://github.com/OfficeDev/Office-Add-in-samples
 
