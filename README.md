@@ -1,3 +1,144 @@
+# Démarches juridiques
+### Droit pénal
+
+#### État civil
+- Déclaration de naissance : [Office de l'état civil]
+- Déclaration de décès : [Office de l'état civil]
+- Mariage civil : [Office de l'état civil]
+- Partenariat enregistré (union civile) : [Office de l'état civil]
+- Divorce : [Tribunal de première instance]
+- Modification de nom : [Office de l'état civil]
+
+#### Droit des personnes
+- Changement de nom ou de prénom : [Office de l'état civil]
+- Déclaration d'absence : [Tribunal de première instance]
+- Protection des majeurs (curatelle) : [Tribunal de protection de l'adulte et de l'enfant]
+
+#### Droit de la famille
+- Adoption : [Tribunal de protection de l'adulte et de l'enfant]
+- Reconnaissance de paternité : [Office de l'état civil]
+- Tutelle et curatelle : [Tribunal de protection de l'adulte et de l'enfant]
+
+#### Successions
+- Testament : [Notaire]
+- Pacte successoral : [Notaire]
+- Acceptation ou renonciation à une succession : [Tribunal de première instance]
+
+#### Enquête et poursuite
+- Dépôt de plainte pénale : [Police ou Ministère public]
+- Audition en tant que témoin ou victime : [Police ou Ministère public]
+- Dénonciation anonyme : [Police ou Ministère public]
+
+#### Procédures pénales
+- Comparution devant le tribunal de police : [Tribunal de police]
+- Comparution devant le tribunal pénal : [Tribunal pénal]
+- Recours contre une décision de classement : [Ministère public]
+
+#### Défense et assistance judiciaire
+- Demande d'assistance judiciaire : [Tribunal de première instance]
+- Nomination d'un avocat d'office : [Tribunal de première instance]
+- Contestation d'une décision de refus d'assistance judiciaire : [Tribunal de première instance]
+
+#### Exécution des peines
+- Demande de libération conditionnelle : [Service pénitentiaire ou Tribunal d'application des peines]
+- Demande de sursis : [Tribunal d'application des peines]
+- Demande de révision de peine : [Tribunal de première instance]
+
+#### Mesures de protection
+- Demande d'ordonnance de protection (interdiction de contact, éloignement) : [Tribunal de protection de l'adulte et de l'enfant]
+- Plainte pour violence domestique : [Police ou Ministère public]
+- Plainte pour harcèlement : [Police ou Ministère public]
+
+#### Infractions spécifiques
+- Plainte pour cybercriminalité : [Police ou Ministère public]
+- Plainte pour escroquerie : [Police ou Ministère public]
+- Plainte pour abus de confiance : [Police ou Ministère public]
+
+#### Réparation et compensation
+- Demande de réparation du dommage : [Tribunal de première instance]
+- Demande d'indemnisation pour détention injustifiée : [Tribunal de première instance]
+- Demande de réparation pour erreur judiciaire : [Tribunal de première instance]
+
+#### Procédures de recours et appels
+- Appel contre un jugement pénal : [Cour d'appel]
+- Recours en cassation : [Tribunal fédéral]
+
+#### Mesures pénales alternatives
+- Mesures éducatives : [Tribunal des mineurs]
+- Travail d'intérêt général : [Tribunal de première instance]
+
+#### Réhabilitation et effacement
+- Demande de réhabilitation : [Tribunal de première instance]
+- Effacement du casier judiciaire : [Office fédéral de la justice]
+
+#### Coopération internationale
+- Extradition : [Office fédéral de la justice]
+- Entraide judiciaire internationale : [Office fédéral de la justice]
+
+### Droit administratif
+
+#### Permis et autorisations
+- Demande de permis de séjour : [Service cantonal des migrations]
+- Demande de permis de travail : [Service cantonal des migrations]
+- Demande de permis de construire : [Service cantonal de l'aménagement du territoire]
+- Demande d'autorisation pour manifestation publique : [Municipalité ou préfecture]
+
+#### Contestations administratives
+- Recours contre une décision administrative : [Tribunal administratif cantonal]
+- Demande de réexamen d'une décision administrative : [Autorité ayant rendu la décision]
+- Recours auprès du Tribunal administratif fédéral : [Tribunal administratif fédéral]
+
+#### Naturalisation et citoyenneté
+- Demande de naturalisation ordinaire : [Service cantonal des naturalisations]
+- Demande de naturalisation facilitée : [Service cantonal des naturalisations]
+- Recours contre une décision de refus de naturalisation : [Tribunal administratif cantonal]
+
+#### Droits sociaux
+- Demande de prestations de l'AI (assurance invalidité) : [Office cantonal de l'assurance-invalidité]
+- Demande de prestations complémentaires : [Service cantonal des prestations sociales]
+- Contestation d'une décision de l'assurance chômage : [Tribunal administratif cantonal]
+
+#### Santé et sécurité publique
+- Demande de subvention pour l'assurance maladie : [Service cantonal de l'assurance maladie]
+- Contestation d'une décision sanitaire : [Tribunal administratif cantonal]
+- Plainte pour insalubrité ou nuisances : [Service cantonal de l'environnement]
+
+#### Droit de l'environnement et de l'urbanisme
+- Demande d'autorisation environnementale : [Service cantonal de l'environnement]
+- Recours contre une décision relative à l'environnement : [Tribunal administratif cantonal]
+- Contestation de projets d'aménagement du territoire : [Tribunal administratif cantonal]
+
+#### Éducation et formation
+- Recours contre une décision scolaire (exclusion, redoublement) : [Tribunal administratif cantonal]
+- Demande de bourse d'études : [Service cantonal des bourses]
+- Plainte pour non-respect des droits des étudiants : [Service cantonal de l'éducation]
+
+#### Transport et mobilité
+- Demande de permis de conduire : [Service cantonal des automobiles et de la navigation]
+- Contestation d'une amende de circulation : [Tribunal administratif cantonal]
+- Recours contre une décision de retrait de permis : [Tribunal administratif cantonal]
+
+#### Litiges administratifs spécifiques
+- Droit des assurances sociales : [Tribunal administratif cantonal]
+- Droit des étrangers et intégration : [Tribunal administratif cantonal]
+- Droit de la construction et aménagement du territoire : [Tribunal administratif cantonal]
+
+#### Procédures spécifiques
+- Médiation administrative : [Service cantonal de médiation]
+- Procédure de conciliation : [Autorité de conciliation compétente]
+
+#### Surveillance et contrôle administratif
+- Contrôle de légalité : [Tribunal administratif cantonal]
+- Surveillance des marchés publics : [Tribunal administratif cantonal]
+
+#### Droits fondamentaux et libertés publiques
+- Protection des données personnelles : [Préposé fédéral à la protection des données et à la transparence]
+- Liberté d'information : [Service cantonal de l'information et de la transparence]
+
+#### Gestion des situations d'urgence
+- Mesures sanitaires : [Tribunal administratif cantonal]
+- Planification de la protection civile : [Tribunal administratif cantonal]
+
 https://github.com/OfficeDev/Office-Add-in-samples
 
 # Particularités suisses
