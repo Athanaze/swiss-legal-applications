@@ -1,3 +1,7 @@
+# Mass pdf visual processing:
+
+The idea is to process pdf as images via gpt-4o-mini and to extract their content in markdown format to keep the basic structure of the document and generate usage translations
+
 # Démarches juridiques en suisse
 ### Droit pénal
 
