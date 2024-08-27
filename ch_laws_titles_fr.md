@@ -1,4 +1,3 @@
-TITLES_CH_LAW = """
 Ordonnance sur l’établissement de profils d’ADN en matière civile et administrative
 
 Ordonnance de l’OSAV sur la protection des animaux lors de leur abattage
@@ -10464,4 +10463,3 @@ Accord entre le Conseil fédéral suisse et le Gouvernement du Royaume d’Arabi
 Accord concernant le règlement des dettes foncières en francs suisses
 
 Loi fédérale sur les professions relevant du domaine de la psychologie
-"""
