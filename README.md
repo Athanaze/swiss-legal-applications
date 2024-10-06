@@ -1,3 +1,14 @@
+# Questions juridiques
+
+taxes communales d'alimentation en eau et d'assainissement imposées à un propriétaire d'immeubles.
+
+règles de motivation du recours de droit administratif 
+
+critères d'évaluation des examens du notariat
+
+règles applicables en matière de conflit d'intérêts dans le cadre d'une curatelle
+
+
 # Mass pdf visual processing:
 
 The idea is to process pdf as images via gpt-4o-mini and to extract their content in markdown format to keep the basic structure of the document and generate usage translations
