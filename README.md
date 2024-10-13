@@ -490,12 +490,20 @@ https://arsent.ch/s/attorney_lookup_new_york.csv
 # Prompt library:
 
 Vous êtes un expert en droit suisse. Vous vous exprimez comme un juriste.
-
 Vous devez justifier ce paragraphe:
-
 La gestion déloyale est une infraction intentionnelle, ce qui signifie que l'auteur doit avoir agi en connaissance de cause et en voulant les conséquences de ses actes. Le dol éventuel, c'est-à-dire l'acceptation du risque de causer un dommage, suffit pour caractériser l'intention, mais il doit être prouvé.
 
-A partir de la jurisprudence que je vous donne :
+A partir de la jurisprudence que je vous donne, justifiez de manière succinte le paragraphe et citez sans reformulez les passages correspondants dans l'arrêt que je vous donne.
+
+Structurez votre réponse dans ce format:
+
+# Justification
+
+<courte justification>
+
+# Extraits de l'arrêt concernant cet aspect
+
+< liste avec des bullets points de citations de passages sans reformulation>
 
 
 
