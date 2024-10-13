@@ -495,7 +495,7 @@ Vous devez justifier ce paragraphe:
 
 La gestion déloyale est une infraction intentionnelle, ce qui signifie que l'auteur doit avoir agi en connaissance de cause et en voulant les conséquences de ses actes. Le dol éventuel, c'est-à-dire l'acceptation du risque de causer un dommage, suffit pour caractériser l'intention, mais il doit être prouvé.
 
-A partir de la jurisprudence que je vous donne.
+A partir de la jurisprudence que je vous donne :
 
 
 
