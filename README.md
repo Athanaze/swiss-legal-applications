@@ -1,32 +1,59 @@
 # Exemples de sujets à chercher dans les jurisprudences
 
 ESCROQUERIE
+
 PAR MÉTIER
+
 GESTION DÉLOYALE
+
 GESTION FAUTIVE
+
 PARTIE CIVILE
+
 DOMMAGE
+
 DOMMAGES-INTÉRÊTS
+
 CRÉANCE
+
 RESPONSABILITÉ CONTRACTUELLE
+
 RESPONSABILITÉ DÉLICTUELLE
+
 RESPONSABILITÉ RESTREINTE{DROIT PÉNAL}
+
 RESPONSABILITÉ{DROIT PÉNAL}
+
 AGGRAVATION DE LA PEINE
+
 ATTÉNUATION DE LA PEINE
+
 SURSIS À L'EXÉCUTION DE LA PEINE
+
 SURSIS PARTIEL À L'EXÉCUTION DE LA PEINE
+
 HONORAIRES
+
 AVOCAT
+
 COMPLICITÉ
+
 FRAIS JUDICIAIRES
+
 DÉPENS
+
 EXPERTISE PSYCHIATRIQUE
+
 AFFECTION PSYCHIQUE
+
 MALADIE MENTALE
+
 NOTAIRE
+
 INTENTION
+
 DROIT D'ÊTRE ENTENDU
+
 ADMINISTRATION DES PREUVES
 
 # Exemples d'articles à chercher dans les jurisprudences
@@ -459,6 +486,18 @@ Somehow hard to find via google, so here it is:
 https://arsent.ch/s/attorney_lookup_new_york.csv
 
 ---
+
+# Prompt library:
+
+Vous êtes un expert en droit suisse. Vous vous exprimez comme un juriste.
+
+Vous devez justifier ce paragraphe:
+
+La gestion déloyale est une infraction intentionnelle, ce qui signifie que l'auteur doit avoir agi en connaissance de cause et en voulant les conséquences de ses actes. Le dol éventuel, c'est-à-dire l'acceptation du risque de causer un dommage, suffit pour caractériser l'intention, mais il doit être prouvé.
+
+A partir de la jurisprudence que je vous donne.
+
+
 
 ### Created and maintained by [Liechti Consulting](https://liechticonsulting.com) &nbsp; :switzerland:
 
