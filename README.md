@@ -2,6 +2,8 @@
 
 https://huggingface.co/datasets/rcds/swiss_legislation
 
+https://huggingface.co/datasets/rcds/occlusion_swiss_judgment_prediction
+
 LEGAL_TOPICS = [
     "Formation des contrats",
     "Effets des contrats",
