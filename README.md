@@ -1,3 +1,7 @@
+# HF Datasets
+
+https://huggingface.co/datasets/rcds/swiss_legislation
+
 LEGAL_TOPICS = [
     "Formation des contrats",
     "Effets des contrats",
