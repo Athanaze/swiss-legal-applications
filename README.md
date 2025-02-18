@@ -1,3 +1,7 @@
+# Publications
+
+https://www.ejl-fjv.ch/publications
+
 # HF Datasets
 
 https://huggingface.co/datasets/rcds/swiss_legislation
