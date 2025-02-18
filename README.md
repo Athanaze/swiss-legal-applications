@@ -4,6 +4,8 @@ https://huggingface.co/datasets/rcds/swiss_legislation
 
 https://huggingface.co/datasets/rcds/occlusion_swiss_judgment_prediction
 
+https://github.com/Liquid-Legal-Institute/Legal-Text-Analytics?tab=readme-ov-file#datasets-and-data
+
 LEGAL_TOPICS = [
     "Formation des contrats",
     "Effets des contrats",
