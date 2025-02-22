@@ -1,3 +1,5 @@
+https://ocrmypdf.readthedocs.io/en/latest/cookbook.html#basic-examples
+
 # Publications
 
 https://www.ejl-fjv.ch/publications
