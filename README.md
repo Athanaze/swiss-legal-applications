@@ -1,3 +1,8 @@
+https://huggingface.co/datasets/LEXam-Benchmark/LEXam/viewer/mcq_4_choices/test?sort%5Bcolumn%5D=language&sort%5Bdirection%5D=desc&row=195
+
+Lexam paper : https://arxiv.org/pdf/2505.12864
+
+
 https://ocrmypdf.readthedocs.io/en/latest/cookbook.html#basic-examples
 
 # Publications
