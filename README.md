@@ -27,6 +27,7 @@ TOUTES LES LIGNES DOIVENT TOUJOURS ETRE REMPLIES POUR CHAQUE TABLEAU. NE MENTION
 
 model : gpt-oss-120b
 
+
 ### Art. 1‑3 – Objet et champ d’application (art. 1‑3 CPC)
 
 | Thème | Référence | Points clés |
