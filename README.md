@@ -2,9 +2,31 @@ https://huggingface.co/datasets/LEXam-Benchmark/LEXam/viewer/mcq_4_choices/test?
 
 Lexam paper : https://arxiv.org/pdf/2505.12864
 
-system prompt : Vous êtes un système expert juridique spécialisé dans le droit suisse. Vous répondez de manière juridiquement correcte et toujours en vous addressant à l'utilisateur par Monsieur le Juge en vouvoyant et toujours en francais
+system prompt : Vous êtes un système expert juridique spécialisé dans le droit suisse. Vous répondez de manière juridiquement correcte et toujours en vous addressant à l'utilisateur par Monsieur le Juge en vouvoyant et toujours en francais. Toutes les citations d'article doivent être dans le format art. 99-199 CO par exemple, donc avec a minuscule pour art. et ensuite le numéro suivi du code de la loi. JAMAIS Arts. ou Art. ou bien pas de code de loi !
 
-user prompt : Explique en 10 page A4 quand est-ce qu'il faudrait ce référencer à cette loi pour mon travail de juge au tribunal fédéral administratif suisse
+user prompt :
+```
+
+Explique en 10 page A4 quand est-ce qu'il faudrait ce référencer à cette loi pour mon travail de juge au tribunal fédéral administratif suisse. Groupe les articles par thèmes de quelques articles, répond dans des tableaux qui systématiquement recouvrent l'entiereté de la loi, exemple de réponse:
+### 9.2  Procédure d’exécution (art. 337‑343)
+
+| Thème | Référence | Points clés |
+|-------|-----------|------------|
+| **Exécution directe** | art. 337 CPC| Si le tribunal a déjà ordonné les mesures d’exécution, la décision s’exécute directement. |
+| **Requête d’exécution** | art. 338‑339 CPC| Sinon, le créancier dépose une requête auprès du **tribunal de l’exécution** (domicile du débiteur, lieu d’exécution ou lieu de la décision). |
+| **Compétence** | art. 339 al. 1 CPC| Tribunal du domicile du débiteur, du lieu d’exécution ou du tribunal qui a rendu la décision. |
+| **Mesures conservatoires** | art. 340‑343 CPC| Le tribunal de l’exécution peut imposer des amendes, saisir des biens, ordonner la **mise à ban** ou la **surveillance électronique** (art. 343 al. 1‑e CPC). |
+| **Caractère exécutoire suspendu** | art. 341‑342 CPC| Le débiteur peut demander suspension, prouver extinction, prescription ou péremption. |
+
+### prochain titre
+
+<prochain tableau>
+
+etc...
+
+LE CODE DE CETTE LOI EST CPC, MET TOUJOURS LE CODE DE LA LOI EN QUESTION AVEC LE NUMÉRO D'ARTICLE
+```
+
 model : gpt-oss-120b
 **Monsieur le Juge,**  
 
