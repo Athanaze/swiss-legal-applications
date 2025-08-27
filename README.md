@@ -2,12 +2,8 @@ https://huggingface.co/datasets/LEXam-Benchmark/LEXam/viewer/mcq_4_choices/test?
 
 Lexam paper : https://arxiv.org/pdf/2505.12864
 
-system prompt : Vous êtes un système expert juridique spécialisé dans le droit suisse. Vous répondez de manière juridiquement correcte et toujours en vous addressant à l'utilisateur par Monsieur le Juge en vouvoyant et toujours en francais. Toutes les citations d'article doivent être dans le format art. 99-199 CO par exemple, donc avec a minuscule pour art. et ensuite le numéro suivi du code de la loi. JAMAIS Arts. ou Art. ou bien pas de code de loi !
-
-user prompt :
-```
-
-Explique en 10 page A4 quand est-ce qu'il faudrait ce référencer à cette loi pour mon travail de juge au tribunal fédéral administratif suisse. Groupe les articles par thèmes de quelques articles, répond dans des tableaux qui systématiquement recouvrent l'entiereté de la loi, exemple de réponse:
+system prompt : ```Vous êtes un système expert juridique spécialisé dans le droit suisse. Vous répondez de manière juridiquement correcte et toujours en francais. toutes les citations d'article doivent être dans le format art. 99-199 CO par exemple, donc avec a minuscule pour art. et ensuite le numéro suivi du code de la loi. JAMAIS Arts. ou Art. ou bien pas de code de loi ! VOUS NE RÉPONDEZ QUE EN TABLEAU, IL FAUT FAIRE UN TABLEAU TRÈS COMPLET QUI RECOUVRE TOUTE LA LOI, PAS DE PLACE POUR DES COMMENTAIRES.
+Groupe les articles par thèmes de quelques articles, répond dans des tableaux qui systématiquement recouvrent l'entiereté de la loi, exemple de réponse:
 ### 9.2  Procédure d’exécution (art. 337‑343)
 
 | Thème | Référence | Points clés |
@@ -24,181 +20,167 @@ Explique en 10 page A4 quand est-ce qu'il faudrait ce référencer à cette loi 
 
 etc...
 
-LE CODE DE CETTE LOI EST CPC, MET TOUJOURS LE CODE DE LA LOI EN QUESTION AVEC LE NUMÉRO D'ARTICLE
+LE CODE DE CETTE LOI EST CPC, MET TOUJOURS LE CODE DE LA LOI EN QUESTION AVEC LE NUMÉRO D'ARTICLE (y compris quand tu cites un article dans les points clés). FAIT DES GROUPES PAR EXEMPLES art.1-3 CPC
+
+TOUTES LES LIGNES DOIVENT TOUJOURS ETRE REMPLIES POUR CHAQUE TABLEAU. NE MENTIONNE PAS DE NUMÉRO D'ARTICLE DANS LA COLONNE THÈME
 ```
 
 model : gpt-oss-120b
-## 1.  Dispositions générales – Titre 1 (art. 1‑20 CPC)
 
-| Thème                              | Référence(s)                | Points clés |
-|------------------------------------|-----------------------------|-------------|
-| Objet et champ d’application       | art. 1‑3 CPC                | <ul><li>Régit la procédure devant les juridictions cantonales (civiles, commerciales, familiales) ainsi que l’arbitrage.</li><li>Les matières exclues sont réservées à d’autres lois (ex. procédure pénale, droit de la procédure administrative).</li></ul> |
-| Principes fondamentaux             | art. 4‑6 CPC                | <ul><li>Compétence matérielle déterminée normalement par le droit cantonal, sauf dispositions contraires du CPC.</li><li>Coût de la procédure calculé à partir de la valeur litigieuse.</li></ul> |
-| Langue officielle du canton        | art. 9‑10 CPC               | <ul><li>For impératif : le for ne peut être éludé que s’il est expressément prévu.</li><li>Domicile / siège détermine le for (personnes physiques : domicile ; personnes morales : siège).</li></ul> |
-| Faits notoires & preuve            | art. 11‑13 CPC              | <ul><li>Faits notoires ne nécessitent aucune preuve.</li><li>Les mesures provisionnelles sont, sauf exception, prises par le même tribunal qui statue sur le fond.</li></ul> |
-| Récusation des magistrats          | art. 14‑16 CPC              | <ul><li>Motifs de récusation (intérêts, lien de parenté, conflit d’intérêts, etc.).</li><li>Obligation de déclaration et procédure de récusation.</li></ul> |
+### Art. 1‑3 – Objet et champ d’application (art. 1‑3 CPC)
 
----
-
-## 2.  Parties, capacité & représentation – Titre 5 (art. 66‑71 CPC)
-
-| Thème                              | Référence(s)                | Points clés |
-|------------------------------------|-----------------------------|-------------|
-| Capacité d’être partie              | art. 66 CPC                 | <ul><li>Condition : jouissance des droits civils ou reconnaissance par le droit fédéral.</li></ul> |
-| Capacité d’ester en justice        | art. 67 CPC                 | <ul><li>Exercice des droits civils suffit ; les incapables agissent par représentant.</li><li>Possibilité d’agir de façon autonome pour les personnes capables de discernement (ex. minors autonomes).</li></ul> |
-| Représentation conventionnelle     | art. 68 CPC                 | <ul><li>Tout capable peut se faire représenter ; avocats, agents d’affaires, représentants légaux, etc., sont autorisés selon le droit cantonal.</li><li>Le représentant doit justifier d’une procuration.</li></ul> |
-| Inaptitude à poursuivre            | art. 69‑70 CPC              | <ul><li>Le tribunal désigne un représentant lorsqu’une partie est manifestement incapable.</li><li>Obligation d’informer les tiers de leur droit d’indemnisation.</li></ul> |
-| Consorité & cumul d’actions         | art. 71‑72 CPC              | <ul><li>Obligation de joindre les parties lorsqu’elles sont liées à un même litige (consorité).</li><li>Possibilité de représenter plusieurs consorts par un même représentant.</li></ul> |
+| Thème | Référence | Points clés |
+|-------|-----------|------------|
+| Objet | art. 1 CPC | La loi règle la procédure applicable devant les juridictions cantonales : affaires civiles cieuses, décisions judiciaires de la juridiction gracieuse, poursuite pour dettes et faillite, arbitrage. |
+| Causes internationales | art. 2 CPC | Les traités internationaux et la loi fédérale du 18 déc. 1987 sur le droit international privé (LDIP) sont réservés. |
+| Organisation des tribunaux | art. 3 CPC | Sauf disposition contraire, l’organisation des tribunaux et autorités de conciliation relève des cantons. |
 
 ---
 
-## 3.  Conciliation – Titre 2 (art. 197‑215 CPC)
+### Art. 4‑8 – Compétence matérielle et récusation (art. 4‑8 CPC)
 
-| Thème                              | Référence(s)                | Points clés |
-|------------------------------------|-----------------------------|-------------|
-| Principe de la conciliation        | art. 197 CPC                | <ul><li>Tout litige patrimonial doit d’abord passer par une tentative de conciliation.</li></ul> |
-| Exceptions à la conciliation       | art. 198 CPC                | <ul><li>Procédure sommaire, procédure de divorce, affaires LP, etc., sont exclues.</li></ul> |
-| Renoncement à la conciliation      | art. 199 CPC                | <ul><li>Possibilité de renoncer d’un commun accord (valeur ≥ 100 000 CHF) ou unilatéralement (domicile du défendeur à l’étranger, inconnus, ou litiges égalité).</li></ul> |
-| Autorité de conciliation (parité)  | art. 200‑201 CPC            | <ul><li>Composition paritaire dans les baux, droit de l’égalité, etc.</li><li>Mission : rechercher un accord, donner des conseils juridiques.</li></ul> |
-| Procédure de conciliation          | art. 202‑209 CPC            | <ul><li>Requête de conciliation (art. 202), audience (art. 203), comparution personnelle (art. 204), confidentialité (art. 205).</li><li>Autorisation de procéder (art. 209) : le défendeur dispose de 3 mois (30 jours pour les baux) pour intenter l’action.</li></ul> |
-| Proposition de décision & décision  | art. 210‑212 CPC            | <ul><li>Proposition de décision (art. 210) : acceptée d’office après 20 jours (art. 211).</li><li>Décision de conciliation (art. 212) possible pour les petites valeurs (≤ 2 000 CHF).</li></ul> |
-| Médiation (remplacement ou complément) | art. 213‑218 CPC            | <ul><li>Possibilité de remplacer la conciliation par une médiation (art. 213).</li><li>La médiation est confidentielle, les parties peuvent demander ratification (art. 217).</li></ul> |
+| Thème | Référence | Points clés |
+|-------|-----------|------------|
+| Principes de compétence | art. 4 CPC | Le droit cantonal détermine la compétence matérielle et fonctionnelle, sauf disposition contraire. La valeur litigieuse est calculée selon la présente loi. |
+| Instance cantonale unique | art. 5 CPC | Le droit cantonal institue la juridiction compétente pour statuer en instance cantonale unique sur les litiges de propriété intellectuelle, droit des cartels, usage d’une raison de commerce, etc. |
+| Tribunal de commerce | art. 6 CPC | Les cantons peuvent créer un tribunal de commerce pour les litiges commerciaux ; conditions d’éligibilité détaillées (activité commerciale, valeur ≥ 30 000 CHF, etc.). |
+| Juridiction de l’assurance complémentaire | art. 7 CPC | Les cantons peuvent instituer un tribunal pour les litiges relatifs aux assurances complémentaires à l’assurance‑maladie sociale. |
+| Action directe devant le tribunal supérieur | art. 8 CPC | Si la valeur litigieuse ≥ 100 000 CHF, le demandeur peut, avec l’accord du défendeur, porter l’action directement devant le tribunal supérieur (instance cantonale unique). |
 
 ---
 
-## 4.  Procédure ordinaire – Titre 3 (art. 219‑241 CPC)
+### Art. 9‑14 – For, domicile et résidence (art. 9‑14 CPC)
 
-| Thème                              | Référence(s)                | Points clés |
-|------------------------------------|-----------------------------|-------------|
-| Champ d’application                | art. 219 CPC                | <ul><li>Règle la procédure ordinaire (et, par analogie, les procédures spéciales).</li></ul> |
-| Introduction de l’instance          | art. 220‑222 CPC            | <ul><li>Demande (art. 221) : désignation des parties, conclusions, valeur litigieuse, faits, moyens de preuve.</li><li>Réponse (art. 222) : mêmes exigences, délai fixé par le tribunal.</li></ul> |
-| Défaut de réponse                   | art. 223‑224 CPC            | <ul><li>Si le défendeur ne répond pas, le tribunal fixe un bref délai supplémentaire (art. 223) ; défaut persistant → jugement sur les pièces.</li><li>Possibilité de demande reconventionnelle (art. 224).</li></ul> |
-| Modification de la demande          | art. 227‑230 CPC            | <ul><li>Modification possible si nouvelle prétention liée (art. 227) ; l’objet de la modification doit être lié à la demande initiale ou accepté par la partie adverse.</li></ul> |
-| Débats principaux & plaidoiries    | art. 228‑236 CPC            | <ul><li>Premières plaidoiries (art. 228) ; nouveaux faits admissibles (art. 229).</li><li>Débats d’instruction (art. 226) : possibles à tout moment pour clarifier les faits.</li><li>Décisions finales (art. 236) : irrecevabilité ou fond.</li></ul> |
-| Décision incidente                  | art. 237‑238 CPC            | <ul><li>Le tribunal peut rendre une décision incidente (art. 237) ; cette décision est immédiatement susceptible d’appel (art. 238).</li></ul> |
-| Procès‑verbal & communication       | art. 235‑240 CPC            | <ul><li>Tableau des audiences (art. 235); contenu de la décision (art. 238); communication aux parties (art. 239) : généralement orale, motivation sur demande.</li></ul> |
-| Clôture sans jugement (transaction, acquiescement, désistement) | art. 241‑242 CPC | <ul><li>Transaction, acquiescement ou désistement (art. 241) sont immédiatement exécutoires et entraînent le rayement du rôle.</li></ul> |
+| Thème | Référence | Points clés |
+|-------|-----------|------------|
+| For impératif | art. 9 CPC | Un for est impératif uniquement s’il est prévu expressément par la loi; les parties ne peuvent y déroger. |
+| Domicile et siège | art. 10 CPC | Détermination du for : domicile du particulier, siège de la personne morale, domicile du défendeur étranger, etc. |
+| Résidence | art. 11 CPC | Le for est le domicile ; à défaut, la résidence habituelle ou le dernier lieu de résidence connu. |
+| Établissements et succursales | art. 12 CPC | Le tribunal du domicile, du siège ou du lieu d’établissement ou de succursale est compétent pour les actions découlant d’activités commerciales ou professionnelles. |
+| Mesures provisionnelles | art. 13 CPC | Competence du tribunal du for principal et du lieu d’exécution des mesures provisionnelles. |
+| Demande reconventionnelle | art. 14 CPC | La demande reconventionnelle peut être formée au for principal lorsqu’elle est connexe; le for subsiste même si la demande principale est liquidée. |
 
 ---
 
-## 5.  Procédure simplifiée – Titre 4 (art. 243‑250 CPC)
+### Art. 15‑16 – Consorité, appel en cause et élection de for (art. 15‑17 CPC)
 
-| Thème                              | Référence(s)                | Points clés |
-|------------------------------------|-----------------------------|-------------|
-| Champ d’application                | art. 243 CPC                | <ul><li>Affaires patrimoniales dont la valeur ≤ 30 000 CHF, ainsi que certains litiges (égalité, violence, baux, participation, assurances complémentaires).</li></ul> |
-| Forme de la demande simplifiée     | art. 244 CPC                | <ul><li>Demande peu formelle (pas de motivation obligatoire), pièces (procuration, titres) en annexe.</li></ul> |
-| Citation & déterminations du défendeur | art. 245‑246 CPC            | <ul><li>Citation à l’audience (art. 245) ; mesures d’instruction décidées à la première audience (art. 246).</li></ul> |
-| Mise à ban & mesures de protection | art. 258‑260 CPC            | <ul><li>Possibilité d’interdire tout trouble de la possession (art. 258) ; publication de la mise à ban (art. 259), opposition possible (art. 260).</li></ul> |
-| Mesures provisionnelles (art. 261‑266 CPC) | art. 261‑266 CPC | <ul><li>Ordonnance de mesures provisionnelles (art. 261‑262) ; mesures super‑provisionnelles en urgence (art. 265).</li></ul> |
-
----
-
-## 6.  Procédure sommaire – Titre 5 (art. 248‑269 CPC)
-
-| Thème                              | Référence(s)                | Points clés |
-|------------------------------------|-----------------------------|-------------|
-| Principes généraux                  | art. 248 CPC                | <ul><li>S’applique aux cas prévus par la loi, aux cas clairs, à la mise à ban, aux mesures provisionnelles, à la juridiction gracieuse.</li></ul> |
-| Domaine d’application (CC)          | art. 249‑250 CPC            | <ul><li>Liste exhaustive (ex. fixation du délai de ratification d’actes de mineurs, déclaration d’absence, consignation de testaments, mesures de protection des créanciers, etc.).</li></ul> |
-| Domaine d’application (CO)          | art. 251‑252 CPC            | <ul><li>Dispositions spécifiques (procédure d’exécution, dépôt de procuration, fixation de délais, etc.).</li></ul> |
-| Domaine d’application (LP)          | art. 251‑251 a CPC          | <ul><li>Décisions relatives à la poursuite pour dettes et à la faillite (ex. annulation ou suspension de la poursuite, mainlevée).</li></ul> |
-| Cas clairs                          | art. 257 CPC                | <ul><li>Si les faits ne sont pas litigieux ou la situation juridique claire, la procédure sommaire peut être appliquée.</li></ul> |
-| Mise à ban générale                 | art. 258‑260 CPC            | <ul><li>Comme dans la procédure simplifiée, le titulaire d’un droit réel peut faire interdire tout trouble.</li></ul> |
-| Mesures provisionnelles (art. 261‑266 CPC) | art. 261‑266 CPC | <ul><li>Principe (art. 261), objets (art. 262), mesures avant litispendance (art. 263), sûretés (art. 264), mesures superprovisionnelles (art. 265), mesures à l’encontre des médias (art. 266).</li></ul> |
-| Dispositions réservées (LP, CC, brevets) | art. 269 CPC                | <ul><li>Certains domaines restent exclus (ex. mesures conservatoires LP, sûretés succession, brevets).</li></ul> |
+| Thème | Référence | Points clés |
+|-------|-----------|------------|
+| Consorité et cumul d’actions | art. 15 CPC | Un tribunal compétent à l’égard d’un défendeur l’est pour tous les co‑defendeurs ; les prétentions connexes sont jugées par le même tribunal. |
+| Appel en cause | art. 16 CPC | Le tribunal compétent pour l’action principale statue aussi sur l’appel en cause. |
+| Élection de for | art. 17 CPC | Les parties peuvent convenir d’un for pour le règlement d’un différend, sauf disposition contraire; la convention doit être écrite ou prouvable. |
+| Acceptation tacite | art. 18 CPC | Le tribunal saisi est compétent lorsqu’une partie, sans réserve, ne conteste pas la compétence. |
+| Juridiction gracieuse | art. 19 CPC | Le tribunal ou l’autorité du domicile ou du siège du requérant est impérativement compétent pour les affaires de juridiction gracieuse. |
 
 ---
 
-## 7.  Procédure spéciale en droit de la famille – Titres 6‑7 (art. 271‑305 CPC)
+### Art. 20‑28 – Droit de la personnalité, succession et biens immobiliers (art. 20‑29 CPC)
 
-| Thème                              | Référence(s)                | Points clés |
-|------------------------------------|-----------------------------|-------------|
-| Mesures protectrices de l’union conjugale | art. 271‑276 CPC            | <ul><li>Application de la procédure sommaire aux mesures de protection (ex. déclaration de séparation de biens, obligations d’information, contributions d’entretien).</li></ul> |
-| Procédure de divorce                | art. 274‑289 CPC            | <ul><li>Divorce sur requête commune (art. 285‑288) ; délai de réflexion (art. 287) ; procédure d’audience et mesures provisionnelles (art. 276).</li></ul> |
-| Action en paternité & contribution d’entretien | art. 303‑304 CPC            | <ul><li>Mesures provisionnelles en cas de doute de filiation (art. 303) ; compétence du tribunal (art. 304).</li></ul> |
-| Partenariat enregistré – procédure sommaire | art. 305‑307 CPC            | <ul><li>Règles de la procédure sommaire applicables aux partenaires (ex. contributions pécuniaires, pouvoir de disposer du logement).</li></ul> |
-
----
-
-## 8.  Preuve – Titre 10 (art. 150‑190 CPC)
-
-| Thème                              | Référence(s)                | Points clés |
-|------------------------------------|-----------------------------|-------------|
-| Principes généraux de la preuve    | art. 150‑152 CPC            | <ul><li>Objet : faits pertinents et contestés (art. 150).<br>Faits notoires : non à prouver (art. 151).<br>Droit à la preuve (art. 152) : chaque partie peut proposer les moyens adéquats.</li></ul> |
-| Administration d‑office de la preuve| art. 153‑155 CPC            | <ul><li>Le tribunal administre d’office (art. 153) lorsqu’il doit établir des faits.</li></ul> |
-| Ordonnances de preuve              | art. 154 CPC                | <ul><li>Définissent quels faits sont à la charge de quelle partie.</li></ul> |
-| Moyens de preuve (témoignage, titres, inspection, expertise, etc.) | art. 168‑190 CPC | <ul><li>Témoignage (art. 169‑176) : forme, audition, procès‑verbal, possibilité de vidéoconférence (art. 170 a).</li><li>Titres (art. 177‑180) : authenticité, production.</li><li>Inspection (art. 181‑182) : mandat, procès‑verbal.</li><li>Expertise (art. 183‑189) : désignation, mandat, rapport, recours.</li><li>Renseignements écrits (art. 190).</li></ul> |
-| Droits d’opposition & refus de collaborer | art. 160‑167 CPC            | <ul><li>Obligation de collaborer (art. 160) ; droit de refuser (art. 163‑166) ; sanctions en cas de refus injustifié (art. 167).</li></ul> |
-| Procédure de l’interrogatoire & déposition des parties | art. 191‑193 CPC            | <ul><li>Interrogatoire (art. 191), déposition (art. 192), même règles que pour les témoins (art. 193).</li></ul> |
+| Thème | Référence | Points clés |
+|-------|-----------|------------|
+| Protection de la personnalité | art. 20 CPC | Le tribunal du domicile ou du siège de l’une des parties statue sur les actions fondées sur atteinte à la personnalité, droit de réponse, changement de nom, actions liées à la LPD. |
+| Décès et absence | art. 21 CPC | Le tribunal du dernier domicile connu statue sur la déclaration de décès ou d’absence. |
+| Registres de l’état civil | art. 22 CPC | Le tribunal du ressort du registre concerné est compétent pour les actions de modification du registre. |
+| Droit du mariage | art. 23‑27 CPC | Le tribunal du domicile de l’une des parties est compétent pour les requêtes relatives au mariage, séparation de biens, filiation, entretien, et aux prétentions de la mère non mariée. |
+| Successions | art. 28 CPC | Le tribunal du dernier domicile du défunt statue sur les actions successorales, la liquidation du régime matrimonial, et les actions sur biens immobiliers ou agricoles. |
+| Droits réels – Immeubles | art. 29 CPC | Le tribunal du lieu d’immatriculation au registre foncier est compétent pour les actions réelles, les communautés de propriétaires, les gages, ainsi que pour la juridiction gracieuse relative aux droits réels. |
+| Droits réels – Biens meubles | art. 30 CPC | Le tribunal du domicile, du siège du défendeur ou du lieu où le bien est situé statue sur les actions relatives aux droits réels mobiliers et aux créances garanties. |
 
 ---
 
-## 9.  Frais, assistance judiciaire & mesures de justice – Titres 8‑9 (art. 95‑124 CPC)
+### Art. 31‑38 – Actions découlant de contrats, consommation et accidents (art. 31‑38 CPC)
 
-| Thème                              | Référence(s)                | Points clés |
-|------------------------------------|-----------------------------|-------------|
-| Définition des frais               | art. 95 CPC                 | <ul><li>Frais = frais judiciaires (émoluments, frais d’administration de la preuve, traduction, frais de représentation de l’enfant) + dépens (débours, frais de représentant, indemnité équitable).</li></ul> |
-| Tarification des frais             | art. 96‑100 CPC             | <ul><li>Tarifs fixés cantonalement (art. 96).<br>Sûretés : espèces, garantie bancaire ou assurance (art. 100).</li></ul> |
-| Avance de frais & sûretés          | art. 98‑103 CPC             | <ul><li>Avance possible (art. 98), Sûretés exigées (art. 99‑101), recours contre décisions (art. 103).</li></ul> |
-| Répartition des frais (principe & équité) | art. 104‑111 CPC            | <ul><li>Principe : partie succombante (art. 106) ; possibilité d’équité (art. 107) ; restitution, remise ou surcharge (art. 112‑113).</li></ul> |
-| Assistance judiciaire              | art. 117‑123 CPC            | <ul><li>Droit à l’assistance (art. 117); étendue (art. 118) – exemption d’avances, frais, conseil juridique.</li><li>Demande (art. 119), retrait (art. 120), recours (art. 121).</li><li>Règlement des frais quand la partie bénéficiaire succombe (art. 122‑123).</li></ul> |
-| Frais de la procédure de conciliation | art. 207‑209 CPC            | <ul><li>Frais à la charge du demandeur en cas de retrait ou défaut (art. 207).<br>Autorisation de procéder (art. 209) : délai de 3 mois (30 jours pour baux).</li></ul> |
-| Dépenses liées aux mesures de justice (ex. mise à ban) | art. 258‑260 CPC            | <ul><li>Coût de la mise à ban constitue une mesure de justice ; opposition possible (art. 260).</li></ul> |
-
----
-
-## 10.  Voies de droit, recours et révision – Titres 9‑13 (art. 308‑344 CPC)
-
-| Thème                              | Référence(s)                | Points clés |
-|------------------------------------|-----------------------------|-------------|
-| **Appel**                          | art. 308‑315 CPC            | <ul><li>Décisions attaquables : finales, incidents, mesures provisionnelles (art. 308).<li>Valeur litigieuse ≥ 10 000 CHF pour les affaires patrimoniales (art. 309).<li>Motifs – violation du droit ou constatation inexacte (art. 310).<li>Effet suspensif : en général (art. 315 1) ; exceptions (art. 315 2‑4).</li></ul> |
-| **Procédure d’appel**              | art. 311‑322 CPC            | <ul><li>Introduction (art. 311) ; réponse (art. 312) ; appel joint (art. 313 – caducité dans certains cas).<li>Procédure sommaire (art. 314) : délai de 10 jours, pas d’appel joint.<li>Effets de l’appel (art. 315) ; procédure de l’instance d’appel (art. 316‑318).</li></ul> |
-| **Recours**                        | art. 319‑327 CPC            | <ul><li>Objet : décisions non‑appelables, mesures provisionnelles, retard du tribunal (art. 319).<li>Motifs – violation du droit, faits inexactes (art. 320).<li>Introduction (art. 321) : délai 30 jours (10 jours en procédure sommaire, art. 321 2).<li>Effet suspensif limité (art. 325) ; possibilité de suspension sur demande (art. 325 2).</li></ul> |
-| **Révision**                       | art. 328‑333 CPC            | <ul><li>Motifs : faits nouveaux, crime influençant la décision, vices de la transaction, récusation (art. 328).<li>Délai : 90 jours à compter de la découverte (art. 329 1) ; prescription de 10 ans (art. 329 2).<li>Effet suspensif – en principe non, mais le tribunal peut suspendre (art. 331).<li>Nouvelle décision sur le fond (art. 333).</li></ul> |
-| **Interprétation & rectification** | art. 334 CPC                | <ul><li>Si le dispositif est ambigu ou contradictoire, le tribunal peut interpréter ou rectifier sur requête ou d’office (art. 334 1‑4).</li></ul> |
-| **Exécution des décisions**        | art. 335‑344 CPC            | <ul><li>Caractère exécutoire (art. 336) ; exécution directe (art. 337) ; requête d’exécution (art. 338) ; compétence du tribunal de l’exécution (art. 339).<li>Mesures conservatoires (art. 340); examen du caractère exécutoire (art. 341‑342).<li>Obligations de faire, de s’abstenir, de tolérer (art. 343) ; sanction possibles (amende, contrainte, exécution par tiers).<li>Déclaration de volonté (art. 344) : le tribunal de l’exécution peut imposer des sanctions pénales (art. 292 CP) en cas de non‑exécution.</li></ul> |
+| Thème | Référence | Points clés |
+|-------|-----------|------------|
+| Principes généraux | art. 31 CPC | Le tribunal du domicile ou du siège du défendeur ou du lieu d’exécution de la prestation est compétent pour les actions découlant d’un contrat. |
+| Consommateurs | art. 32 CPC | Le for est le domicile du consommateur (ou du défendeur pour le fournisseur) pour les contrats de consommation. |
+| Bail à loyer ou à ferme | art. 33 CPC | Le tribunal du lieu où est situé l’immeuble est compétent pour les actions fondées sur un contrat de bail. |
+| Droit du travail | art. 34 CPC | Le tribunal du domicile ou du siège du défendeur ou du lieu d’exercice du travail est compétent pour les actions relatives au droit du travail. |
+| Renonciation aux for | art. 35 CPC | Les parties ne peuvent renoncer aux for : art. 32‑34 avant la naissance du litige ou par acceptation tacite. |
+| Actions illicites | art. 36‑38 CPC | Le tribunal du domicile ou du siège du lésé ou du défendeur, ou du lieu de l’acte ou du résultat, statue sur les actions illicites, dommages‑intérêts de mesures provisionnelles injustifiées, accidents de véhicules à moteur ou de bicyclettes, et, selon art. 38 a, les accidents nucléaires. |
 
 ---
 
-### Comment exploiter ce guide dans votre pratique ?
+### Art. 39‑44 – Droit civil, action de la Cour et valeur litigieuse (art. 39‑44 CPC)
 
-| Situation | Article(s) pertinent(s) | Action à entreprendre |
-|-----------|--------------------------|-----------------------|
-| **Litige patrimonial de 8 000 CHF** | art. 243‑250 CPC | Appliquer la procédure simplifiée ; vérifier si le cas relève de la procédure sommaire (art. 257) ; prévoir la conciliation obligatoire (art. 197). |
-| **Demande d’annulation d’une décision de l’administration** | art. 308‑315 CPC (appel) ou art. 319‑327 CPC (recours) | Vérifier la nature de la décision (finale ? incident ?) ; choisir appel (si value ≥ 10 000 CHF) ou recours (si décision non‑appelable). |
-| **Conflit de voisinage portant sur une servitude** | art. 258‑260 CPC (mise à ban) | Déposer une mise à ban (art. 258) ; publier l’avis (art. 259) ; attendre l’éventuelle opposition (art. 260). |
-| **Action en paternité avec demande de contributions d’entretien** | art. 303‑304 CPC | Présenter la demande de mesures provisionnelles (art. 303) ; le tribunal compétent est celui statuant sur les contributions d’entretien (art. 304). |
-| **Saisie d’un bien immobilier d’un débiteur** | art. 337‑342 CPC | Vérifier si la décision est exécutoire (art. 336) ; déposer requête d’exécution (art. 338) ; le tribunal de l’exécution est déterminé par art. 339. |
-| **Recours à la médiation au lieu de la conciliation** | art. 213‑218 CPC | Déposer la demande de médiation dans la requête de conciliation (art. 213) ; suivre le déroulement (art. 215‑217). |
-| **Demande d’assistance judiciaire** | art. 117‑123 CPC | Vérifier conditions de droit (art. 117) ; déposer la requête d’assistance (art. 119) ; attendre la décision de l’autorité (art. 119‑121). |
-| **Modification d’une demande en cours de procédure** | art. 227‑230 CPC | S’assurer que la modification satisfait les conditions de l’art. 227 (1) et que les faits nouveaux justifient (art. 230). |
-| **Nouvelle preuve après la clôture de l’instance** | art. 229‑230 CPC | Vérifier les conditions de l’art. 229 (2) (nouveaux faits ou preuve post‑courante) ; demander l’autorisation du tribunal avant de les introduire. |
-| **Révision d’une décision suite à une condamnation pénale révélant une fraude** | art. 328‑333 CPC | Déposer une demande de révision (art. 328 b) dans les 90 jours (art. 329 1) ; préciser le motif de fraude et joindre la décision pénale. |
+| Thème | Référence | Points clés |
+|-------|-----------|------------|
+| Conclusions civiles | art. 39 CPC | La compétence du tribunal pénal pour les conclusions civiles est réservée. |
+| Valeur litigieuse | art. 91‑94 CPC* (voir tableau ci‑dessous) | Principes de détermination, revenus périodiques, consorité simple, et règle de la demande reconventionnelle. |
+| Valeur des actions non chiffrées | art. 85 CPC | Une action non chiffrée peut être introduite ; la valeur litigieuse est fixée par le tribunal, la compétence reste malgré le dépassement éventuel. |
+| Action partielle | art. 86 CPC | Une prétention divisible peut donner lieu à une action partielle. |
+| Action formatrice | art. 87 CPC | Action visant à créer, modifier ou dissoudre un droit ou rapport juridique. |
+| Action en constatation de droit | art. 88 CPC | Action destinée à faire constater l’existence ou l’inexistence d’un droit ou d’un rapport juridique. |
+
+\* Voir tableau **Valeur litigieuse (art. 91‑94 CPC)** ci‑après.
 
 ---
 
-### Remarques pratiques
+### Art. 95‑111 – Frais, avance et assistance judiciaire (art. 95‑111 CPC)
 
-1. **Hiérarchie des voies** – L’appel a priorité sur le recours ; le recours ne peut être interjeté que contre une décision qui n’est pas susceptible d’appel (art. 319).  
-2. **Délais** – Les délais de notification et de dépôt sont stricts : 30 jours pour appel et recours, 10 jours en procédure sommaire (art. 314, 321 2). Un dépassement entraîne la perte du droit d’agir.  
-3. **Effet suspensif** : la règle générale (art. 315 1) s’applique, mais les mesures provisionnelles, les décisions de conciliation ou de médiation, et certaines décisions de protection de l’union conjugale ne sont **pas** suspendues (art. 315 2).  
-4. **Mesures provisionnelles** : avant toute procédure (art. 261‑266) ; le tribunal peut imposer des sûretés (art. 264) ; les mesures super‑provisionnelles (art. 265) sont d’urgence et peuvent être décidées sans entendre la partie adverse.  
-5. **Assistance judiciaire** : la décision d’octroi (art. 118) est indépendante du fond du litige ; les frais restent à la charge de la partie bénéficiaire de l’assistance (art. 122‑123).  
+| Thème | Référence | Points clés |
+|-------|-----------|------------|
+| Définitions des frais | art. 95 CPC | Frais = frais judiciaires + dépens (émoluments de conciliation, frais d’administration des preuves, etc.). |
+| Tarif des frais | art. 96 CPC | Les cantons fixent le tarif des frais; dispositions relatives aux émoluments de la LP sont réservées. |
+| Information sur les frais | art. 97 CPC | Le tribunal informe la partie non représentée de l’estimation des frais et de l’assistance judiciaire. |
+| Avance de frais | art. 98‑101 CPC | Le tribunal peut exiger une avance (½ ou totalité) selon la nature de la procédure ; délais, sûretés et conséquences du non‑paiement. |
+| Frais d’administration des preuves | art. 102 CPC | Chaque partie avance les frais d’administration des preuves qu’elle requiert; partage en cas de demande conjointe. |
+| Recours contre frais | art. 103 CPC | Les décisions relatives aux avances et sûretés sont susceptibles de recours. |
+| Fixation et répartition des frais | art. 104‑108 CPC | Les frais sont généralement fixés et répartis d’office ; règles générales, équité et cas de transaction. |
+| Dépenses et frais de transaction | art. 109‑111 CPC | Règles de répartition en cas de transaction, recours, remboursement des frais et dispenses. |
 
 ---
 
-### Conclusion
+### Art. 112‑122 – Sursis, remise, intérêts et assistance judiciaire (art. 112‑122 CPC)
 
-Le **CPC** constitue la colonne vertébrale de la procédure civile devant les juridictions cantonales et, par extension, du Tribunal fédéral administratif lorsque ce dernier statue sur des recours ou des procédures de première instance.  
+| Thème | Référence | Points clés |
+|-------|-----------|------------|
+| Sursis et remise | art. 112 CPC | Le tribunal peut accorder un sursis ou renoncer aux créances de frais si la partie est durablement démunie. Prescription des créances de frais : 10 ans; intérêt moratoire : 5 %. |
+| Assistance judiciaire – droit | art. 117 CPC | Une personne sans ressources suffisantes et dont la cause n’est pas dépourvue de chance a droit à l’assistance judiciaire. |
+| Étendue de l’assistance | art. 118 CPC | Exonération d’avances et sûretés, exonération des frais judiciaires, désignation d’un conseil juridique (officier d’office). Possibilité partielle ou totale, même pour l’administration des preuves. |
+| Requête et procédure | art. 119 CPC | La requête d’assistance judiciaire peut être présentée avant ou pendant la litispendance; le tribunal statue en procédure sommaire; le défaut de preuve de fortune entraîne la décision. |
+| Retrait de l’assistance | art. 120 CPC | Le tribunal retire l’assistance judiciaire si les conditions ne sont plus remplies ou jamais remplis. |
+| Recours contre décision d’assistance | art. 121 CPC | Les décisions refusant ou retirant l’assistance judiciaire sont susceptibles de recours. |
+| Règlement des frais en cas d’assistance | art. 122 CPC | En cas de succombance : rémunération du conseil juridique par le canton, frais judiciaires à la charge du canton, avances restituées, dépens versés à la partie adverse. En cas de gain : le canton paie le conseil si les dépens ne peuvent être obtenus de la partie adverse. |
 
-En vous référant aux tableaux ci‑dessus, vous disposerez d’un **repérage rapide** des articles à appliquer selon :
+---
 
-* le **type de procédure** (conciliation, ordinaire, simplifiée, sommaire) ;  
-* les **mesures provisoires** ou **exécutives** à prendre ;  
-* les **voies de droit** (appel, recours, révision, interprétation) ;  
-* les **règles de preuve** et de **représentation** des parties ;  
-* la **gestion des frais** et de l’**assistance judiciaire**.  
+### Art. 123‑127 – Remboursement, dispense cantonale et service d’exécution (art. 123‑127 CPC)
 
-Ces repères vous permettront, dès la réception d’un dossier, d’identifier le ou les **articles CPC pertinents** et d’orienter votre analyse conformément aux exigences de la procédure suisse.  
+| Thème | Référence | Points clés |
+|-------|-----------|------------|
+| Remboursement de l’assistance | art. 123 CPC | La partie doit rembourser l’assistance judiciaire dès qu’elle en a la capacité; la créance du canton se prescrit par 10 ans à compter de la fin du procès. |
+| Dispositions cantonales sur les frais | art. 116 CPC | Les cantons peuvent prévoir des dispenses de frais plus larges ; les dispenses cantonales s’appliquent également à la Confédération. |
+| Sursis, remise et intérêts (voir art. 112) | – | – |
+| Exécution des décisions (art. 335‑344) : voir tableau **Exécution (art. 335‑344 CPC)** ci‑après. |
+
+---
+
+### Valeur litigieuse (art. 91‑94 CPC)
+
+| Thème | Référence | Points clés |
+|-------|-----------|------------|
+| Principe général | art. 91 CPC | La valeur du litige est déterminée par les conclusions ; les intérêts, frais de procédure ou mesures subsidiaires ne sont pas pris en compte. |
+| Revenus périodiques | art. 92 CPC | Les revenus ou prestations périodiques sont valorisés comme un capital (20 × revenu annuel ; ou valeur actualisée pour rentes viagères). |
+| Consorité simple & cumul d’actions | art. 93 CPC | En cas de consorité simple ou de cumul, les prétentions sont additionnées, sauf exclusion; le type de procédure reste le même. |
+| Demande reconventionnelle | art. 94 CPC | Si les demandes s’opposent, la valeur la plus élevée prévaut ; si elles ne s’excluent pas, les valeurs sont additionnées pour le calcul des frais. |
+
+---
+
+### Exécution des décisions (art. 335‑344 CPC)
+
+| Thème | Référence | Points clés |
+|-------|-----------|------------|
+| Champ d’application | art. 335 CPC | Les décisions sont exécutées selon les dispositions du présent chapitre ; les décisions portant sur versement ou sûretés relèvent de la LP. |
+| Caractère exécutoire | art. 336 CPC | Décision exécutoire lorsqu’elle est entrée en force sans suspension, ou lorsqu’un caractère exécutoire anticipé a été prononcé. |
+| Exécution directe | art. 337 CPC | Si la décision ordonne les mesures d’exécution, elle peut être exécutée directement ; la partie succombante peut demander suspension auprès du tribunal de l’exécution. |
+| Requête d’exécution | art. 338 CPC | Si la décision ne peut être exécutée directement, une requête d’exécution doit être présentée au tribunal de l’exécution, avec les conditions et documents nécessaires. |
+| Compétence du tribunal de l’exécution | art. 339 CPC | Compétent : tribunal du domicile/siège du succombant, du lieu d’exécution, ou du lieu de la décision. Procédure sommaire. |
+| Mesures conservatoires | art. 340 CPC | Le tribunal de l’exécution peut, sans audience préalable, ordonner des mesures conservatoires. |
+| Examen du caractère exécutoire | art. 341 CPC | Le tribunal examine d’office le caractère exécutoire, fixe un bref délai au succombant, qui peut invoquer faits post‑notification (extinction, prescription, etc.) ; titres requis pour extinction ou sursis. |
+| Prestations conditionnelles | art. 342 CPC | Les décisions conditionnelles ou subordonnées à contre‑prestation s’exécutent seulement si la condition est remplie ou la contre‑prestation offerte/exécutée. |
+| Obligations de faire, s’abstenir, tolérer | art. 343 CPC | Le tribunal peut assortir la décision d’amendes (max 5 000 CHF, 1 000 CHF/jour), d’une peine prévue à l’art. 292 CP, d’une mesure de contrainte (enlèvement, expulsion) ou d’exécution par un tiers. En cas d’interdiction au sens art. 28 b CC, possible surveillance électronique (art. 28 c CC). |
+| Déclaration de volonté | art. 344 CPC | (Contenu non fourni dans le texte extrait ; article réservé ou non détaillé). |
 
 ---  
 
