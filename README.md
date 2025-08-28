@@ -29,8 +29,7 @@ Your task is to analyze the text of a Swiss court ruling provided below and extr
         *   Citations to doctrine or legal commentaries.
 
 2.  **Passage Extraction ("passage_text"):**
-    *   The passage must be the full sentence that contains the legal citation.
-    *   For context, you may include the immediately preceding or succeeding sentence, but keep the total passage concise and ideally under 150 words. The focus is on the direct context of the citation.
+The passage should be long enough to be understable by itself : by itself, a lawyer should be able to judge if it make sense to cite that article
 
 3.  **Citation Standardization ("citation_string"):**
     *   You must extract and standardize the citation string itself.
@@ -55,7 +54,7 @@ Your entire output MUST be a single, valid JSON object. This object will contain
 {
   "citations": [
     {
-      "passage_text": "The full sentence(s) containing the citation.",
+      "passage_text": "The full sentence(s) containing the citation. WITH ENOUGH CONTEXT TO BE UNDERSTABLE BY ITSELF",
       "citation_string": "The standardized citation, e.g., 'art. 20 al. 1 CO'."
     },
     {
