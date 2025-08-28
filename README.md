@@ -1,3 +1,15 @@
+# "Is this article relevant here ?" task
+
+1. Extract passage from jurisprudence that cite a specific article of a **federal** law e.g. art. 19ss CO (could be art. 19 and art. 20, or art.19 up to art. 22...), save it as one row, with label "correct" as we assume that humans correctly cite federal law articles, and in the "reference" column have the content of the articles cited (for ss we assume it's the 5 next articles)
+
+2. From those passage, generate incorrect citations by changing number, law code etc... this might create some false negative, this is a risk we are willing to take (if it's 2% of the time it's not that bad), save the modified text on another row, with label "incorrect" and in the reference column we put the article that correspond to the incorrect citation we just created
+   
+3. Finetune a very small LM like gemma 270m : given the input of the passage and the reference text, it should predict wether it's a correct or incorrect citation.
+
+To make everything work with a small model the passage and the reference text should be kept pretty small, less than 4k tokens combined
+
+---
+
 Federal laws in french : 
 
 [liechticonsulting/fedlex](https://huggingface.co/datasets/liechticonsulting/fedlex)
