@@ -1,3 +1,25 @@
+# Current situation
+
+Embedding model of choice: 
+
+text-embedding-qwen3-embedding-4b Q8_0 Size 4.28GB
+
+Fedlex Laws:
+- In FR, DE, IT
+- Still todo : embedding
+
+Jurisprudence:
+- 250k+ scraped with their text content, embeddings ongoing (2000 embeddings took 66 minutes)
+- Contains cantonal and federal decisions
+- Does not include TAF but still todo verify this
+
+Doctrine:
+- Potentially really powerful
+- Different type : commentary are usefull because they explicitely cite jurisprudence with small story
+
+
+
+
 # "Is this article relevant here ?" task
 
 1. Extract passage from jurisprudence that cite a specific article of a **federal** law e.g. art. 19ss CO (could be art. 19 and art. 20, or art.19 up to art. 22...), save it as one row, with label "correct" as we assume that humans correctly cite federal law articles, and in the "reference" column have the content of the articles cited (for ss we assume it's the 5 next articles)
