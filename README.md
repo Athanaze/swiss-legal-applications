@@ -5,8 +5,9 @@ Embedding model of choice:
 text-embedding-qwen3-embedding-4b Q8_0 Size 4.28GB
 
 Fedlex Laws:
-- In FR, DE, IT
+- In FR, DE, IT : by law : liechticonsulting/fedlex
 - Still todo : embedding
+- By article : liechticonsulting/fedlex_articles
 
 Jurisprudence:
 - 250k+ scraped with their text content, embeddings ongoing (2000 embeddings took 66 minutes)
