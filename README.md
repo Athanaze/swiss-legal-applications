@@ -24,7 +24,11 @@ Fedlex articles:
 
 - 77,016 articles in french for national only (so excluding RS 0....)
 
+-> assuming 2 seconds to return an article out of 100 articles given a situation.
 
+-> 770 calls to go through all national laws
+
+-> 25 minutes sequencially
 
 # "Is this article relevant here ?" task
 
