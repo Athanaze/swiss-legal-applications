@@ -18,6 +18,9 @@ Doctrine:
 - Potentially really powerful
 - Different type : commentary are usefull because they explicitely cite jurisprudence with small story
 
+Fedlex articles:
+130333 articles in french
+77,016 articles in french for national only (so exlucding RS 0....)
 
 
 
