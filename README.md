@@ -22,7 +22,7 @@ Fedlex articles:
 
 - 130333 articles in french
 
-- 77,016 articles in french for national only (so exlucding RS 0....)
+- 77,016 articles in french for national only (so excluding RS 0....)
 
 
 
