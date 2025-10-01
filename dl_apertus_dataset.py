@@ -15,7 +15,7 @@ def filter_function(example):
     Returns True to keep the example, False to discard it.
     We keep the row only if the substring is NOT in the 'id' column.
     """
-    return (SUBSTRING_TO_FILTER not in example[COLUMN_TO_CHECK]) and ("fineweb" not in example[COLUMN_TO_CHECK]) and ("This text was translated from" not in example["text"])
+    return (SUBSTRING_TO_FILTER not in example[COLUMN_TO_CHECK]) and ("fineweb" not in example[COLUMN_TO_CHECK]) and ("This text was translated from" not in example["text"]) and ("This is a text translated from" not in example["text"])
 
 def main():
     """
