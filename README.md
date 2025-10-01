@@ -1,3 +1,13 @@
+# Doctrine
+
+Political swiss explanations:
+
+https://www.lesswrong.com/posts/x6hpkYyzMG6Bf8T3W/swiss-political-system-more-than-you-ever-wanted-to-know-i
+
+https://www.lesswrong.com/posts/KTnJ4w4grttfJmwo9/swiss-political-system-more-than-you-ever-wanted-to-know-ii
+
+https://www.lesswrong.com/posts/fR9amAhzFktD5nMqi/swiss-political-system-more-than-you-ever-wanted-to-know-iii
+
 # Current situation
 
 Embedding model of choice: 
