@@ -1,3 +1,7 @@
+# Pretrain data
+
+https://huggingface.co/datasets/swiss-ai/apertus-pretrain-swiss
+
 # Doctrine
 
 Political swiss explanations:
