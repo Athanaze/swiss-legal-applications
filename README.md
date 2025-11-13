@@ -1,3 +1,7 @@
+# Open access doctrine
+
+https://www.helbing.ch/fr/livres/Open_Access
+
 # Droit public
 
 https://wp.unil.ch/cedeat/
