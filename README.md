@@ -1,3 +1,11 @@
+# ide todos:
+
+- fix edit and trash buttons in timeline view
+- fix timeline view look
+- import real doctrine books in markdown format
+- have nice markdown render tests with footmarks, clickable etc
+- make audio recording work properly and nice ui
+
 # Open access doctrine
 
 https://www.helbing.ch/fr/livres/Open_Access
